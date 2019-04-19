@@ -44,5 +44,3 @@ $Translator = Invoke-WebRequest -Uri $uri `
     -ContentType 'application/json'
 
 ($Translator.Content.TrimStart('[').TrimEnd(']') -split ',' | select -First 1).TrimStart('"').TrimEnd('"')
-
-
