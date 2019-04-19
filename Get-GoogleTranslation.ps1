@@ -10,12 +10,6 @@
     https://cloud.google.com/translate/docs/languages
 
     .EXAMPLE
-    This demonstrates default english to spanish if no source 
-    or target lang are defined: 
-
-    Get-GoogleTranslation.ps1 -Content "The bubble gum cigars"
-
-    .EXAMPLE
     This demonstrates using english as source lang and swahili
     as target lang: 
 
