@@ -8,7 +8,7 @@ This cmdlet interfaces with the Google Translation API when given an source and 
 
     .DESCRIPTION
     This cmdlet allows you to pass in string content and translate
-    it into another supported languages.
+    it into another supported language.
 
     See this link for supported language codes: 
     https://cloud.google.com/translate/docs/languages
